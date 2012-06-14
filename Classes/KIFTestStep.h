@@ -431,4 +431,7 @@ typedef enum {
  */
 + (id)stepToSwipeViewWithAccessibilityLabel:(NSString *)label inDirection:(KIFSwipeDirection)direction;
 
++ (id)stepToClearField:(NSString *)label traits:(UIAccessibilityTraits)traits expectedResult:(NSString *)expectedResult;
+
++ (id)stepToClearField:(NSString *)label;
 @end
